@@ -70,8 +70,8 @@ def Zone_1(Nom):
     global prix
     Nom = Nom.lower()
     if Nom == "keur massar":
-        destination = Nom
         print(f"Ticket à 250 CFA")
+        destination = Nom
         prix = 250
     elif Nom == "yumbeule":
         print(f"Ticket à 300 CFA")
